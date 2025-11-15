@@ -40,8 +40,8 @@ function draw() {
 
 
 if (!gameRunning && winner !== "") {
-  textSize(32);
-  fill("yellow");
+  textSize(50);
+  fill("orange");
   textAlign(CENTER, CENTER);
   text(winner + " wins!", width/2, height/2);
 }
